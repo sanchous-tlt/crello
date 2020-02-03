@@ -1,0 +1,16 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "jsRules": {
+    "variable-name": {
+      "options": ["ban-keywords", "allow-leading-underscore"]
+    },
+    "quotemark": [true, "single", "jsx-double"]
+  },
+  "rules": {
+    "variable-name": {
+      "options": ["ban-keywords", "allow-leading-underscore"]
+    },
+    "quotemark": [true, "single", "jsx-double"]
+  }
+}

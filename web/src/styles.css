@@ -1,0 +1,31 @@
+@import '~font-awesome/css/font-awesome.css';
+@import './styles/layout.css';
+@import './styles/components.css';
+
+:root {
+  --bg-color-body: #4bbf6b;
+  --bg-color-list: #ebecf0;
+  --text-color-active: #172b4d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+  background-color: var(--bg-color-body);
+}
